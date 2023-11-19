@@ -414,9 +414,10 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link {
+
+/* .portfolio-link {
     display: block;
-}
+} */
 
 .list-filter .item:hover,
 .list-filter .item:focus {
@@ -448,10 +449,6 @@ img {
     letter-spacing: var(--header-letter-spacing);
 }
 
-.section .link {
-    text-decoration: none;
-}
-
 
 /* overlay */
 
@@ -476,15 +473,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
-/* .portfolio-link:hover .overlay {
-    transform: translateY(0%);
-}
-
-.portfolio-link:focus .overlay {
-    transform: translateY(0%);
-} */
 
 .list-filter .item:hover .overlay {
     transform: translateY(0%);
