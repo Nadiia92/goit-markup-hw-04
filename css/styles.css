@@ -460,11 +460,6 @@ img {
     overflow: hidden;
 }
 
-
-/* .overlay-space:hover .overlay {
-    transform: translateY(0);
-} */
-
 .overlay {
     position: absolute;
     display: inline-block;
