@@ -480,11 +480,11 @@ img {
     letter-spacing: var(--header-letter-spacing);
 }
 
-.portfolio-link:hover .overlay {
+.list-filter .item:hover .overlay {
     transform: translateY(0%);
 }
 
-.portfolio-link:focus .overlay {
+.list-filter .item:focus .overlay {
     transform: translateY(0%);
 }
 
