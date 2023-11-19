@@ -392,11 +392,6 @@ img {
     fill: currentColor;
 }
 
-svg {
-    width: 16px;
-    height: 16px;
-}
-
 
 /* our portfolio */
 
@@ -530,7 +525,7 @@ svg {
     margin-top: 16px;
 } */
 
-.social {
+.social-media-list {
     gap: 16px;
 }
 
@@ -554,9 +549,4 @@ svg {
 .social-item-link:hover,
 .social-item-link:focus {
     background-color: #31D0AA;
-}
-
-svg {
-    width: 24px;
-    height: 24px;
 }
