@@ -406,11 +406,11 @@ img {
     display: flex;
     gap: 48px 24px;
     flex-wrap: wrap;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-filter .link {
     display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .list-filter .item {
@@ -461,11 +461,16 @@ img {
     overflow: hidden;
 }
 
-.overlay-space:hover .overlay {
+
+/* .overlay-space:hover .overlay {
+    transform: translateY(0);
+} */
+
+.list-filter .link:hover .overlay {
     transform: translateY(0);
 }
 
-.list-filter .item:focus .overlay {
+.list-filter .link:focus .overlay {
     transform: translateY(0);
 }
 
