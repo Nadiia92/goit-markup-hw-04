@@ -477,22 +477,22 @@ img {
     letter-spacing: 0.02em;
 }
 
-.portfolio-link:hover .overlay {
+
+/* .portfolio-link:hover .overlay {
     transform: translateY(0%);
 }
 
 .portfolio-link:focus .overlay {
     transform: translateY(0%);
-}
+} */
 
-
-/* .list-filter .item:hover .overlay {
+.list-filter .item:hover .overlay {
     transform: translateY(0%);
 }
 
 .list-filter .item:focus .overlay {
     transform: translateY(0%);
-} */
+}
 
 
 /* footer */
