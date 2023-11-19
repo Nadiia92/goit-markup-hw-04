@@ -482,11 +482,11 @@ img {
     letter-spacing: 0.02em;
 }
 
-.overlay-space:hover .overlay {
+.portfolio-link:hover .overlay {
     transform: translateY(0%);
 }
 
-.overlay-space:focus .overlay {
+.portfolio-link:focus .overlay {
     transform: translateY(0%);
 }
 
